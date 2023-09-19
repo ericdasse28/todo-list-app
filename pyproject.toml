@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "todo-list-app"
+version = "0.1.0"
+description = "Simple command line application to manage todo lists"
+authors = ["Eric Dasse <christ.gououi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "todo_list_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
