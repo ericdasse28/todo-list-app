@@ -1,6 +1,7 @@
 """Provides the Typer command line interface for the application"""
 
 from typing import Optional
+
 import typer
 
 from edtodo import __app_name__, __version__
