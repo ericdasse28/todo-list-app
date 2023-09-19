@@ -5,10 +5,13 @@ description = "Simple command line application to manage todo lists"
 authors = ["Eric Dasse <christ.gououi@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "todo_list_app"}]
+packages = [{ include = "todo_list_app" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+typer = "^0.9.0"
+colorama = "^0.4.6"
+shellingham = "^1.5.3"
 
 
 [build-system]
