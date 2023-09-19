@@ -5,7 +5,7 @@ description = "Simple command line application to manage todo lists"
 authors = ["Eric Dasse <christ.gououi@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "todo_list_app" }]
+packages = [{ include = "edtodo" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
